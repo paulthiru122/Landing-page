@@ -5,15 +5,15 @@ import insta from '../assets/insta.svg'
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-200 mt-12 h-96'>
-      <div className='container mx-auto flex  pt-32'> 
+    <footer className='bg-gray-200 mt-12 '>
+      <div className='container mx-auto flex  flex-col md:flex-row sm:gap-5 py-10 md:pt-32'> 
         {/* width  25%  */}
         <div className='w-1/4 '>
         <p className='text-2xl font-medium'>Developer</p></div>
 
     
       {/* width -50%  */}
-      <div className='w-1/2 flex'>
+      <div className='w-1/2 flex flex-col md:flex-row'>
       <div className='pr-24'>
         <h2 className='text-2xl font-bold'>Links</h2>
         <ul className='space-y-2 mt-4 '>
@@ -41,7 +41,7 @@ const Footer = () => {
 
       </div>
       {/* width 25%  */} 
-      <div className='w-1/4 flex justify-end gap-4'>
+      <div className='w-1/4 flex justify-end gap-4 '>
       <button>
         <img src={fbicon} className='h-10 w-10' alt="" />
       </button>

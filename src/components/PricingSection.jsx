@@ -9,7 +9,7 @@ const PricingSection = () => {
       <p className='text-2xl'>Offers multiple packages for monthly and yearly Subscriptions</p>
       <p className='text-2xl'>Featured plans are here</p>
     </div>
-    <div className='grid grid-cols-3 gap-4 mt-4'>
+    <div className='grid md:grid-cols-3 grid-cols-1 mx-32 md:mx-10  gap-4 mt-4'>
       <div className='bg-gray-200  mt-4 w-80 relative rounded-2xl hover:shadow-2xl text-center'>
         <h1 className='font-bold text-5xl '>$99</h1>
         <h2 className='text-green-500 mb-3 font-bold'>Basic</h2>
@@ -59,7 +59,7 @@ const PricingSection = () => {
         <button className='bg-indigo-700 absolute bottom-0  transform translate-y-5 -translate-x-16 text-white px-6 py-2 rounded-full mt-6 font-medium '>Get Started</button>
 
       </div>
-      <div className='bg-gray-200 relative w-80 border border-4 border-indigo-500 border-dashed rounded-2xl hover:shadow-2xl text-center'>
+      <div className='bg-gray-200 relative sm:mt-4 w-80 border border-4  border-indigo-500 border-dashed rounded-2xl hover:shadow-2xl text-center'>
         <h1 className='font-bold text-5xl '>$199</h1>
         <h2 className='text-green-500 mb-3 font-bold'>Advanced</h2>
         <p>All the basic feature</p>

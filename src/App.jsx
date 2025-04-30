@@ -1,5 +1,3 @@
-import './App.css'
-
 import  {Footer, Hero as Heros, Main, Navbar, PricingSection, StoriesSection}  from './components/index'
 
 function App() {

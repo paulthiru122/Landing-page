@@ -8,23 +8,23 @@ const StoriesSection = () => {
         <h1 className="text-5xl">Featured Stories</h1>
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
-        <div className="bg-gray-200 rounded-2xl text-center">
-          <img className="mt-4 w-full h-60 hover:shadow-2xl" src="https://picsum.photos/200" alt="" />
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mx-32">
+        <div className="bg-gray-200 rounded-2xl  hover:shadow-2xl text-center">
+          <img className="mt-4 w-full h-60" src="https://picsum.photos/200" alt="" />
           <h1 className="text-2xl text-indigo-500 mt-4">Google Rankings</h1>
           <p className="font-thin my-4">Making it connect with every client worldwide</p>
           <a href="#" className="text-indigo-500 font-bold hover:text-black">Read More</a>
         </div>
 
-        <div className="bg-gray-200 rounded-2xl text-center">
-          <img className="mt-4 w-full h-60 hover:shadow-2xl" src="https://picsum.photos/200" alt="" />
+        <div className="bg-gray-200 hover:shadow-2xl rounded-2xl text-center">
+          <img className="mt-4 w-full h-60 " src="https://picsum.photos/200" alt="" />
           <h1 className="text-2xl text-indigo-500 mt-4">Communication</h1>
           <p className="font-thin my-4">Best communication for the business</p>
           <a href="#" className="text-indigo-500 font-bold hover:text-black">Read More</a>
         </div>
 
-        <div className="bg-gray-200 rounded-2xl text-center">
-          <img className="mt-4 w-full h-60 hover:shadow-2xl" src="https://picsum.photos/200" alt="" />
+        <div className="bg-gray-200 hover:shadow-2xl rounded-2xl text-center">
+          <img className="mt-4 w-full h-60 " src="https://picsum.photos/200" alt="" />
           <h1 className="text-2xl text-indigo-500 mt-4">Remote Working</h1>
           <p className="font-thin my-4">Remote connectivity for Consistent</p>
           <a href="#" className="text-indigo-500 font-bold hover:text-black">Read More</a>
