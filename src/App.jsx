@@ -1,6 +1,6 @@
 import './App.css'
 
-import  {Hero as Heros, Main, Navbar, PricingSection}  from './components/index'
+import  {Footer, Hero as Heros, Main, Navbar, PricingSection, StoriesSection}  from './components/index'
 
 function App() {
  
@@ -18,6 +18,8 @@ function App() {
 
    {/* PricingSection */}
    <PricingSection />
+   <StoriesSection />
+   <Footer />
     </>
  
 
